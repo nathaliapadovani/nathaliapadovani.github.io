@@ -1,6 +1,9 @@
 # Olá, sou Nathalia Padovani 👋
 
 
+![Captura de ecrã de 2024-05-03 00-17-38](https://github.com/nathaliapadovani/nathaliapadovani.github.io/assets/113705196/e898fa0d-fed3-46f4-82e4-b3f7db690e18)
+
+
 Bem-vindo(a) ao meu portfolio! Aqui você encontrará informações sobre mim, meus projetos, habilidades, experiência e como entrar em contato comigo.
 
 ## Sobre Mim 🚀
