@@ -1,0 +1,124 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+  align-items: center;
+}
+
+.experiencia-subtitulo {
+  font-size: 5.3rem;
+  color: #4d4d4d;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  max-width: 40ch;
+  color: #4d4d4d;
+}
+
+.experiencia-texto strong {
+  color: #9B0F63;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #fafafa;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: #9B0F63;
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.empresa-ano {
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #4d4d4d;
+  font-size: 0.87rem;
+}
+
+.empresa-titulo {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.empresa-texto {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #4d4d4d;
+}
+
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4rem;
+  border-radius: 4px;
+  background: #FEFEFE;
+  padding: 5px 10px;
+}
+
+@media (max-width: 940px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .subtitulo {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+  .experiencia-descricao {
+    place-self: center;
+  }
+}
+
+@media (max-width: 673px) {
+  .introducao h1::before {
+    left: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}
