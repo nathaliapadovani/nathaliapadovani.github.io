@@ -80,6 +80,7 @@
 .empresa-habilidades li {
   font-size: 0.875rem;
   line-height: 1.4rem;
+  border: 1px solid #E6E6E6;
   border-radius: 4px;
   background: #FEFEFE;
   padding: 5px 10px;
