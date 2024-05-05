@@ -1,5 +1,12 @@
+:root {
+  --fonte-principal: 'Grenze', sans-serif;
+  --fonte-secundaria: 'Roboto', sans-serif;
+
+}
+
+
 body {
-  font-family: "Fira Sans", Arial, sans-serif;
+  font-family: var(--fonte-secundaria);
   margin: 0px;
   color: #141414;
 }

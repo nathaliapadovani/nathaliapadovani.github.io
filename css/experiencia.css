@@ -9,8 +9,10 @@
 }
 
 .experiencia-subtitulo {
+  font-family: var(--fonte-principal);
   font-size: 5.3rem;
   color: #4d4d4d;
+  font-weight: 800;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
@@ -59,6 +61,7 @@
 }
 
 .empresa-titulo {
+  font-family: var(--fonte-principal);
   font-size: 1.25rem;
   line-height: 1.25rem;
   font-weight: bold;
